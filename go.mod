@@ -3,7 +3,7 @@ module github.com/andreaswwilson/terraform-provider-todoist
 go 1.21.6
 
 require (
-	github.com/andreaswwilson/todoist-client v0.0.2
+	github.com/andreaswwilson/todoist-client v0.0.4
 	github.com/hashicorp/terraform-plugin-docs v0.18.0
 	github.com/hashicorp/terraform-plugin-framework v1.5.0
 	github.com/hashicorp/terraform-plugin-go v0.21.0

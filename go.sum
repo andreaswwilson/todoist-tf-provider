@@ -14,8 +14,8 @@ github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 h1:kkhsdkhsCv
 github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371/go.mod h1:EjAoLdwvbIOoOQr3ihjnSoLZRtE8azugULFRteWMNc0=
 github.com/agext/levenshtein v1.2.2 h1:0S/Yg6LYmFJ5stwQeRp6EeOcCbj7xiqQSdNelsXvaqE=
 github.com/agext/levenshtein v1.2.2/go.mod h1:JEDfjyjHDjOF/1e4FlBE/PkbqA9OfWu2ki2W0IB5558=
-github.com/andreaswwilson/todoist-client v0.0.2 h1:P4pCLSzoamGma1qj3q0bbEji3tftvc5qPXVrM1BFKjE=
-github.com/andreaswwilson/todoist-client v0.0.2/go.mod h1:KA5NqGQLoo/lQ/6V7cJCpEmcOjLOpjCC05GG8eF4GG0=
+github.com/andreaswwilson/todoist-client v0.0.4 h1:/PYGr6F67B/qqASqINYDnfLYXoJd7OxcNE0lVIZjmrY=
+github.com/andreaswwilson/todoist-client v0.0.4/go.mod h1:KA5NqGQLoo/lQ/6V7cJCpEmcOjLOpjCC05GG8eF4GG0=
 github.com/apparentlymart/go-textseg/v12 v12.0.0/go.mod h1:S/4uRK2UtaQttw1GenVJEynmyUenKwP++x/+DdGV/Ec=
 github.com/apparentlymart/go-textseg/v15 v15.0.0 h1:uYvfpb3DyLSCGWnctWKGj857c6ew1u1fNQOlOtuGxQY=
 github.com/apparentlymart/go-textseg/v15 v15.0.0/go.mod h1:K8XmNZdhEBkdlyDdvbmmsvpAG721bKi0joRfFdHIWJ4=
