@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	client "github.com/andreaswwilson/todoist-client"
+	client "github.com/andreaswwilson/terraform-provider-todoist/internal/client"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
@@ -51,7 +51,6 @@ func (d *ProjectsDataSource) Schema(ctx context.Context, req datasource.SchemaRe
 	resp.Schema = schema.Schema{
 		// This description is used by the documentation generator and the language server.
 		MarkdownDescription: "Projects data source",
-
 		Attributes: map[string]schema.Attribute{
 			"name": schema.StringAttribute{
 				MarkdownDescription: "Project name",
