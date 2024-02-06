@@ -1,4 +1,21 @@
+# Lokal utvikling
+
+Terraform leter etter fil som heter "terraform-provider-todoist", men aksepterer ikke "terraform-provider" i source for provider
+så jeg har lagt til dette i ~/.terraformrc
+
+```
+provider_installation {
+ dev_overrides {
+   "github.com/andreaswwilson/todoist" = "/Users/m00474/go/bin"
+ }
+ # For all other providers, install them directly from their origin provider
+ # registries as normal. If you omit this, Terraform will _only_ use
+ # the dev_overrides block, and so no other providers will be available.
+ direct {}
+```
+
 # Terraform Provider Scaffolding (Terraform Plugin Framework)
+
 
 _This template repository is built on the [Terraform Plugin Framework](https://github.com/hashicorp/terraform-plugin-framework). The template repository built on the [Terraform Plugin SDK](https://github.com/hashicorp/terraform-plugin-sdk) can be found at [terraform-provider-scaffolding](https://github.com/hashicorp/terraform-provider-scaffolding). See [Which SDK Should I Use?](https://developer.hashicorp.com/terraform/plugin/framework-benefits) in the Terraform documentation for additional information._
 

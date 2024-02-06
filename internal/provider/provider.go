@@ -7,7 +7,7 @@ import (
 	"context"
 	"os"
 
-	client "github.com/andreaswwilson/todoist-client"
+	client "github.com/andreaswwilson/terraform-provider-todoist/internal/client"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
